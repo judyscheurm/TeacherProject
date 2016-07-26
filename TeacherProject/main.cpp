@@ -7,9 +7,25 @@
 //
 
 #include <iostream>
+#include <string>
 
-int main(int argc, const char * argv[]) {
+using namespace std;
+
+int main()
+{
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "Hello, World!" << endl;
+    double myFraction;
+    cout << myFraction << endl;
+    myFraction = 3.15;
+    cout << myFraction << endl;
+    int myFavoriteNumber;
+    cout << myFavoriteNumber << endl;
+    cout << "Please type in your favorite number.";
+    cin >> myFavoriteNumber;
+    cout << myFavoriteNumber <<endl;
+    string myWords;
+    myWords = "Wow! This is so much fun!";
+    cout << myWords << endl;
     return 0;
 }
